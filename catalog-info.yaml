@@ -31,7 +31,6 @@ metadata:
   name: ms-order-pooling-queue
   description: Stores order information
 spec:
-  type: message-queue
+  type: database
   owner: rarruda
-  domain: ms-order
   system: ms-order-pooling
