@@ -13,14 +13,3 @@ spec:
   lifecycle: experimental
   owner: "rarruda"
   domain: ms-order
----
-apiVersion: backstage.io/v1alpha1
-kind: System
-metadata:
-  name: ms-order-pooling
-  description: Pooling orders from legacy system
-  tags:
-    - microservices
-spec:
-  owner: rarruda
-  domain: ms-order
