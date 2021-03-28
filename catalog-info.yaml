@@ -9,7 +9,7 @@ metadata:
   tags:
     - microservices
 spec:
-  type: documentation
+  type: website
   lifecycle: experimental
   owner: "rarruda"
   domain: ms-order
