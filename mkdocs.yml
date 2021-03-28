@@ -1,5 +1,5 @@
-site_name: "squad-ms-order-docs"
-site_description: "teste"
+site_name: "MS Order - Documentation"
+site_description: "All about MS Order API and related components"
 
 nav:
   - Introduction: index.md
