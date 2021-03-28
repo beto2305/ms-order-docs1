@@ -8,8 +8,30 @@ metadata:
     backstage.io/techdocs-ref: url:https://github.com/beto2305/ms-order-docs1
   tags:
     - microservices
-    - ms-order
 spec:
   type: documentation
   lifecycle: experimental
   owner: "rarruda"
+  domain: ms-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: ms-order-pooling
+  description: Pooling orders from legacy system
+  tags:
+    - microservices
+spec:
+  owner: rarruda
+  domain: ms-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: ms-order-pooling-queue
+  description: Stores order information
+spec:
+  type: message-queue
+  owner: rarruda
+  domain: ms-order
+  system: ms-order-pooling
