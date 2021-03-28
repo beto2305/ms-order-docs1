@@ -24,13 +24,3 @@ metadata:
 spec:
   owner: rarruda
   domain: ms-order
----
-apiVersion: backstage.io/v1alpha1
-kind: Resource
-metadata:
-  name: ms-order-pooling-queue
-  description: Stores order information
-spec:
-  type: database
-  owner: rarruda
-  system: ms-order-pooling
