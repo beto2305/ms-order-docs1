@@ -6,6 +6,9 @@ metadata:
   annotations:
     github.com/project-slug: beto2305/ms-order-docs1
     backstage.io/techdocs-ref: url:https://github.com/beto2305/ms-order-docs1
+  tags:
+    - microservices
+    - ms-order
 spec:
   type: documentation
   lifecycle: experimental
