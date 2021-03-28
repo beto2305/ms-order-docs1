@@ -1,0 +1,8 @@
+site_name: "squad-ms-order-docs"
+site_description: "teste"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "squad-ms-order-docs"
+  description: "teste"
+  annotations:
+    github.com/project-slug: beto2305/ms-order-docs1
+    backstage.io/techdocs-ref: url:https://github.com/beto2305/ms-order-docs1
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "rarruda"
