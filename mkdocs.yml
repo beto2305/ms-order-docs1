@@ -6,5 +6,7 @@ nav:
       - What is Order Microservice?: 'overview/what-is-ms-order.md'
       - Service architecture: 'overview/ms-architecture.md'
       - Features:
+          - External Order:
+              - Partners: 'features/partners.md'
 plugins:
   - techdocs-core
