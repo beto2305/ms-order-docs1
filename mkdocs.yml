@@ -3,12 +3,12 @@ site_description: "All about MS Order API and related components"
 
 nav:
   - Overview: 
-    - What is Order Microservice?: 'overview/what-is-ms-order.md'
-    - Service architecture: 'overview/ms-architecture.md'
-  - Features:
-    - Roadmap: 'overview/ms-order-roadmap.md'
-      - Jornada 1: 'overview/ms-order-jornada1.md'
-      - Jornada 2: 'overview/ms-order-jornada1.md'
-      - Jornada 3: 'overview/ms-order-jornada1.md'
+      - What is Order Microservice?: 'overview/what-is-ms-order.md'
+      - Service architecture: 'overview/ms-architecture.md'
+      - Features:
+          - Roadmap: 'overview/ms-order-roadmap.md'
+                - Jornada 1: 'overview/ms-order-jornada1.md'
+                - Jornada 2: 'overview/ms-order-jornada1.md'
+                - Jornada 3: 'overview/ms-order-jornada1.md'
 plugins:
   - techdocs-core
